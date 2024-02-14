@@ -46,6 +46,11 @@ draw(Graphics g) {
                 + "\nColor:\t" + color + "\n";
     }
 
+
+    public double getSize() {
+        return diameter;
+    }
+
     public double getDiameter() {
         return diameter;
     }
